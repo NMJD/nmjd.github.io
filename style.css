@@ -26,11 +26,19 @@ html, body {
 	height: 7em;
 	border-radius: 50%;
 	border: 10px #1abc9c solid;
+	margin-top: 20px ;
 }
 
 #welcome-content p {
 	color: #ff471a;
 }
+
+#welcome-content div {
+	color: #ffffff;
+	font-size: 0.56em;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+
 
 #navbar {
 	display: flex;
@@ -51,6 +59,7 @@ html, body {
 	color: white;
 	padding: 20px;
 	font-size: 20px;
+	text-decoration: none;
 }
 
 #projects {
