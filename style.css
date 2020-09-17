@@ -88,6 +88,91 @@ html, body {
 }
 
 
+@media(max-width: 1000px){
+	#welcome-section {
+		display: flex;
+		color: white;
+		background-color: #00001d;
+		height: 100%;
+	}
+	
+	#welcome-content {
+		text-align: center;
+		margin: auto;
+	}
+	
+	#welcome-content p, #welcome-content h1 {
+		text-align: center;
+		position: relative;
+		margin: auto;
+		font-size: 5em;
+	}
+	
+	
+	#welcome-content img{
+		width: 70%;
+		height: 500px;
+		border-radius: 50%;
+		border: 10px #1abc9c solid;
+		margin-top: 20px ;
+	}
+	
+	#welcome-content p {
+		color: #ff471a;
+	}
+	
+	#welcome-content div {
+		color: #ffffff;
+		font-size: 4em;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+	}
+	
+	
+	#navbar {
+		display: flex;
+		background: #1abc9c;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		height: 12%;
+		align-items: center;
+		justify-content: center;
+		align-content: space-between;
+		z-index: 1;
+	}
+	
+	#navbar a {
+		font-weight: bold;
+		font-family: arial, sans-serif;
+		color: white;
+		padding: 20px;
+		font-size: 3em;
+		text-decoration: none;
+	}
+	
+	
+	#projects {
+		color: white;
+		text-align: center;
+		padding: 50px;
+		position: relative;
+		margin-top: 0;
+	}
+	
+	#projects h1 {
+		font-size: 3em;
+	}
+	
+	
+	#footer {
+		padding: 60px;
+		background-color: hsl(0, 0%, 10%);
+		color: white;
+		text-align: center;
+		font-size: 1.74em;
+	}
+}
+
 
 #projects {
 	display: flex;
