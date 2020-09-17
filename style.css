@@ -7,6 +7,7 @@ html, body {
 }
 
 
+
 #welcome-section {
 	display: flex;
 	color: white;
@@ -18,12 +19,19 @@ html, body {
 	text-align: center;
 	position: relative;
 	margin: auto;
-	font-size: 2em;
 }
 
+#welcome-content p, #welcome-content h1 {
+	text-align: center;
+	position: relative;
+	margin: auto;
+	font-size: 30px;
+}
+
+
 #welcome-content img{
-	width: 40%;
-	height: 7em;
+	width: 60%;
+	height: 300px;
 	border-radius: 50%;
 	border: 10px #1abc9c solid;
 	margin-top: 20px ;
@@ -35,7 +43,7 @@ html, body {
 
 #welcome-content div {
 	color: #ffffff;
-	font-size: 0.56em;
+	font-size: 25px;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
 }
 
@@ -62,16 +70,13 @@ html, body {
 	text-decoration: none;
 }
 
+
 #projects {
 	color: white;
 	text-align: center;
 	padding: 60px;
 	position: relative;
 	margin-top: 0;
-}
-
-#projects h1 {
-	font-size: 3.2em;
 }
 
 
@@ -82,12 +87,6 @@ html, body {
 	text-align: center;
 }
 
-#footer h2 {
-	font-size: 3.4em;
-}
-#footer h3 {
-	font-size: 1.4em;
-}
 
 
 #projects {
@@ -112,7 +111,7 @@ html, body {
 #projects a{
 	text-decoration: none;
 	color: white;
-	font-size: 1.5em;
+	font-size: 20px;
 }
 
 .fa {
