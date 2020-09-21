@@ -15,7 +15,6 @@ html, body {
 
 
 #welcome-content {
-	position: relative;
 	justify-content: center;
 	align-items: center;
 	display: flex;
@@ -62,6 +61,11 @@ html, body {
 	height: 300px;
 	border-radius: 50%;
 	border: 10px solid white;
+}
+
+#skills {
+	font-size: 25px;
+	margin-left: 30px;
 }
 
 @media (max-width: 900px){
@@ -115,17 +119,12 @@ html, body {
 		font-size: 19px;
 	}
 
-	#skills {
-		font-size: 15px;
+	#skills > div {
+		font-size: 204px;
 		margin-left: 20px;
 	}
 }
 
-#skills {
-	font-size: 10px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	margin-left: 30px;
-}
 
 
 #navbar {
@@ -152,19 +151,19 @@ html, body {
 
 #home {
 	top: 30px;
-	background-color: #4baf56;
+	background-color: #ffffff;
 	width: 130px;
 } 
 
 #portfolio {
 	top: 90px;
-	background-color: #0066ff;
+	background-color: #f7c9da;
 	width: 140px;
 }
 
 #contacts {
 	top: 150px;
-	background-color: #f34535;
+	background-color: #15e7dd;
 	width: 150px;
 }
 
