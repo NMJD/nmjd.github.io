@@ -6,11 +6,6 @@ html, body {
 	margin: 0;
 }
 
-#head-image {
-	height: 400px;
-	background-image: url("./images/bg-11.jpg");
-}
-
 #welcome-section {
 	display: flex;
 	color: white;
@@ -27,6 +22,9 @@ html, body {
 	font-size: 2em;
 }
 
+#welcome-content h1{
+	margin-top: 90px;
+}
 
 #welcome-content p {
 	text-align: center;
@@ -37,13 +35,13 @@ html, body {
 
 
 #welcome-content img{
-	width: 60%;
-	height: 8em;
+	width: 50%;
+	height: 7em;
 	border-radius: 50%;
 }
 
 #skills {
-
+	
 	margin: auto;
 	font-size: 1.4em;
 	text-align: center;
