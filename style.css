@@ -4,6 +4,7 @@
 html, body {
 	height: 100%;
 	margin: 0;
+	scroll-behavior: smooth;
 }
 
 #welcome-section {
@@ -12,12 +13,13 @@ html, body {
 	background-color: dodgerblue;
 }
 
+
 #welcome-content {
 	justify-content: center;
 	align-items: center;
 	display: flex;
 	flex-direction: column;
-	font-size: 1.7em;
+	font-size: 35px;
 	height:65%;
 }
 
@@ -42,7 +44,7 @@ html, body {
 	text-align: center;
 	position: relative;
 	margin: auto;
-	font-size: 1.3em;
+	font-size: 29px;
 }
 
 #infos {
@@ -54,18 +56,17 @@ html, body {
 }
 
 #welcome-content img{
-	width: 8em;
-	height: 8em;
+	width: 250px;
+	height: 250px;
 	border-radius: 50%;
 	border: 10px solid white;
 }
 
 #skills {
-	font-size: .8em;
+	font-size: 20px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	margin-left: 50px;
 }
-
 
 
 #navbar {
@@ -142,7 +143,7 @@ html, body {
 }
 
 #projects div:hover{
-	box-shadow: 3px 10px 20px 2px rgba(0,0,0,.3);
+	box-shadow: 5px 13px 23px 5px rgba(0,0,0,.3);
 }
 }
 
