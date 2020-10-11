@@ -25,6 +25,9 @@ html, body {
 	text-align: center;
 }
 
+#welcome-content > h1 {
+	padding-top: 60px;
+}
 
 #shape1 {
 	background-color: white;
@@ -193,10 +196,10 @@ html, body {
 #projects div {
 	background-color: dodgerblue;
 	border-radius: 6px;
-	margin: 0.5em;
+	margin: 0.9em;
 	flex: 30%;
 	max-width: 30%;
-	transition: .7s;
+	transition: .5s;
 }
 
 #projects div:hover{
