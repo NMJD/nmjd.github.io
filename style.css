@@ -15,6 +15,7 @@ html, body {
 
 
 #welcome-content {
+	position: relative;
 	justify-content: center;
 	align-items: center;
 	display: flex;
@@ -22,11 +23,9 @@ html, body {
 	font-size: 40px;
 	height:65%;
 	text-align: center;
+	padding-top: 80px;
 }
 
-#welcome-content > h1 {
-	padding-top: 60px;
-}
 
 #shape1 {
 	background-color: white;
@@ -63,11 +62,6 @@ html, body {
 	border: 10px solid white;
 }
 
-#skills {
-	font-size: 25px;
-	margin-left: 30px;
-}
-
 @media (max-width: 900px){
 	#welcome-content img {
 		width: 250px;
@@ -89,8 +83,8 @@ html, body {
 
 @media (max-width: 600px){
 	#welcome-content img {
-		width: 199px;
-		height: 199px;
+		width: 205px;
+		height: 205px;
 	}
 
 	#welcome-content {
@@ -108,8 +102,8 @@ html, body {
 
 @media (max-width: 400px){
 	#welcome-content img {
-		width: 170px;
-		height: 170px;
+		width: 198px;
+		height: 198px;
 	}
 
 	#welcome-content {
@@ -119,12 +113,17 @@ html, body {
 		font-size: 19px;
 	}
 
-	#skills > div {
-		font-size: 204px;
+	#skills {
+		font-size: 15px;
 		margin-left: 20px;
 	}
 }
 
+#skills {
+	font-size: 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin-left: 30px;
+}
 
 
 #navbar {
@@ -151,19 +150,19 @@ html, body {
 
 #home {
 	top: 30px;
-	background-color: #ffffff;
+	background-color: #20da1a;
 	width: 130px;
 } 
 
 #portfolio {
 	top: 90px;
-	background-color: #f7c9da;
+	background-color: #ffffff;;
 	width: 140px;
 }
 
 #contacts {
 	top: 150px;
-	background-color: #15e7dd;
+	background-color:#15e7dd;
 	width: 150px;
 }
 
@@ -195,15 +194,14 @@ html, body {
 #projects div {
 	background-color: dodgerblue;
 	border-radius: 6px;
-	margin: 0.9em;
+	margin: 0.5em;
 	flex: 30%;
 	max-width: 30%;
-	transition: .5s;
+	transition: .7s;
 }
 
 #projects div:hover{
 	box-shadow: 5px 13px 23px 5px rgba(0,0,0,.3);
-}
 }
 
 @media (max-width:900px){
